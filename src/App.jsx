@@ -24,7 +24,7 @@ export default function App() {
         <img 
           src="/author.jpg" 
           alt="Author" 
-          className="w-28 h-28 rounded-full mx-auto mt-4 shadow-lg object-cover"
+          className="w-32 h-32 rounded-full mx-auto mt-4 shadow-lg object-cover"
           onError={(e) => e.target.style.display='none'} 
         />
       </header>
@@ -36,12 +36,11 @@ export default function App() {
           {content.books.map((book, index) => (
             <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-md text-center">
               <img 
-  src={`/${book.image}`} 
-  alt={book.title} 
-  className="w-40 h-56 mx-auto rounded-md shadow-md object-cover" 
-  onError={(e) => e.target.style.display='none'} 
-/>
-
+                src={`/${book.image}`} 
+                alt={book.title} 
+                className="w-32 h-48 mx-auto rounded-md shadow-md object-cover" 
+                onError={(e) => e.target.style.display='none'} 
+              />
               <h3 className="text-xl font-bold mt-3">{book.title}</h3>
               <p className="mt-2">{book.description}</p>
             </div>
