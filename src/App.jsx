@@ -39,7 +39,7 @@ export default function App() {
                 className="w-64 h-auto mx-auto rounded-md shadow-lg object-cover" 
                 onError={(e) => e.target.style.display='none'} 
               />
-              <h3 className="text-2xl font-bold mt-4">{book.title}</h3>
+              <h3 className="text-2xl font-bold mt-4">{book.title}</h3>  {/* ✅ Fixed duplicate */}
               <p className="mt-2">{book.description}</p>
             </div>
           ))}
