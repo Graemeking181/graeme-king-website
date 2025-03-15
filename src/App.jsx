@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./App.css";  // ✅ Keeps styling
+import "./App.css"; 
 
 export default function App() {
   const [content, setContent] = useState(null);
@@ -17,14 +17,14 @@ export default function App() {
 
   return (
     <div className="bg-gray-900 text-gray-200 min-h-screen font-sans">
-      {/* HEADER - AUTHOR SECTION */}
+      {/* HEADER */}
       <header className="text-center py-10 border-b border-gray-700 bg-black bg-opacity-50">
         <h1 className="text-4xl font-bold text-red-700">{content.author_name}</h1>
         <p className="text-lg mt-3 italic">{content.bio}</p>
         <img 
           src="/author.jpg" 
           alt="Author" 
-          className="w-24 h-24 rounded-full mx-auto mt-4 shadow-lg object-cover"
+          className="w-32 h-32 rounded-full mx-auto mt-4 shadow-lg object-cover"
           onError={(e) => e.target.style.display='none'} 
         />
       </header>
@@ -38,7 +38,7 @@ export default function App() {
               <img 
                 src={`/${book.image}`} 
                 alt={book.title} 
-                className="w-48 h-64 mx-auto rounded-md shadow-md object-cover" 
+                className="w-48 h-auto mx-auto rounded-md shadow-md object-cover" 
                 onError={(e) => e.target.style.display='none'} 
               />
               <h3 className="text-xl font-bold mt-3">{book.title}</h3>
