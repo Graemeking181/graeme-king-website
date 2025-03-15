@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+import import "./App.css";
+
 
 export default function App() {
   const [content, setContent] = useState(null);
