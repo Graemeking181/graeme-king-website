@@ -38,7 +38,7 @@ export default function App() {
               <img 
                 src={`/${book.image}`} 
                 alt={book.title} 
-                className="w-40 h-56 mx-auto rounded-md shadow-md object-cover" 
+                className="w-48 h-64 mx-auto rounded-md shadow-md object-cover" 
                 onError={(e) => e.target.style.display='none'} 
               />
               <h3 className="text-xl font-bold mt-3">{book.title}</h3>
