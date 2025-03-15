@@ -1,0 +1,18 @@
+{
+  "author_name": "Graeme King",
+  "bio": "I am a multi-genre author specializing in dark fantasy and psychological thrillers.",
+  "books": [
+    {
+      "title": "The Host of Asmodeus",
+      "description": "An NC-17 hard-hitting psychological thriller. Coming April 2025.",
+      "image": "host-of-asmodeus.jpg"
+    },
+    {
+      "title": "Raven Nyx - The Throne of Desire",
+      "description": "Dark, seductive, and thrilling. Coming July 2025.",
+      "image": "raven-nyx.jpg"
+    }
+  ],
+  "tiktok_link": "https://www.tiktok.com/@darklightduality",
+  "email": "graemeking17@hotmail.com"
+}
