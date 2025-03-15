@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import import "./App.css";
-
+import "./App.css";  // ✅ Fixed import statement
 
 export default function App() {
   const [content, setContent] = useState(null);
