@@ -7,7 +7,7 @@ export default function AuthorWebsite() {
     <div className="bg-gray-950 text-gray-200 min-h-screen font-sans">
       <header className="text-center py-10 border-b border-gray-700">
         <h1 className="text-5xl font-bold text-red-700">Graeme King</h1>
-        <p className="text-xl mt-4 italic">Exploring the depths of human cognition and the darkness within.</p>
+        <p className="text-xl mt-4 italic">Exploring the depths of human cognition and the darkness within!.</p>
       </header>
 
       <section className="container mx-auto px-4 py-12">
