@@ -39,27 +39,11 @@ export default function App() {
                 className="w-64 h-auto mx-auto rounded-md shadow-lg object-cover" 
                 onError={(e) => e.target.style.display='none'} 
               />
-              <h3 className="text-2xl font-bold mt-4">{book.title}</h3>  {/* ✅ FIXED Duplicate Titles */}
+              <h3 className="text-2xl font-bold mt-4">{book.title}</h3>
               <p className="mt-2">{book.description}</p>
             </div>
           ))}
         </div>
-      </section>
-
-      <section className="container mx-auto px-4 py-12">
-        <h2 className="text-3xl font-semibold mb-4 text-red-600 text-center">Video Promotions</h2>
-        {content.tiktok_link ? (
-          <div className="flex justify-center">
-            <iframe
-              src={content.tiktok_link}
-              className="w-80 h-64 rounded-lg shadow-lg"
-              allow="autoplay; encrypted-media"
-              title="TikTok Video"
-            ></iframe>
-          </div>
-        ) : (
-          <p className="text-lg text-center">No video available at the moment.</p>
-        )}
       </section>
 
       <section className="container mx-auto px-4 py-12">
